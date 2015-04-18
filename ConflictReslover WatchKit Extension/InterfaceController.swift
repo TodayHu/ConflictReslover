@@ -14,7 +14,26 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet var actionImage: WKInterfaceImage!
     
+    func delay(delay:Double, closure:()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            dispatch_get_main_queue(), closure)
+    }
+    
     @IBAction func playTapped() {
+        actionImage.setImageNamed("action")
+        actionImage.startAnimatingWithImagesInRange(
+            NSRange(location: 0, length: 3),
+            duration: 0.3,
+            repeatCount: 3)
+        
+        delay(0.9) {
+            var imageName = arc4random_uniform(3)
+            self.actionImage.setImageNamed("action\(imageName)")
+        }
     }
     
     override func awakeWithContext(context: AnyObject?) {
