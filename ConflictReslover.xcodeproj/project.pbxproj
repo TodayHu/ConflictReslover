@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298F25471AE2047F0075072B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F25461AE2047F0075072B /* AppDelegate.swift */; };
+		298F25491AE2047F0075072B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F25481AE2047F0075072B /* ViewController.swift */; };
+		298F254C1AE2047F0075072B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F254A1AE2047F0075072B /* Main.storyboard */; };
+		298F254E1AE2047F0075072B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298F254D1AE2047F0075072B /* Images.xcassets */; };
+		298F25511AE2047F0075072B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F254F1AE2047F0075072B /* LaunchScreen.xib */; };
+		298F255D1AE2047F0075072B /* ConflictResloverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F255C1AE2047F0075072B /* ConflictResloverTests.swift */; };
+		298F256F1AE204C60075072B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F256E1AE204C60075072B /* InterfaceController.swift */; };
+		298F25711AE204C60075072B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298F25701AE204C60075072B /* Images.xcassets */; };
+		298F25751AE204C60075072B /* ConflictReslover WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 298F25741AE204C60075072B /* ConflictReslover WatchKit App.app */; };
+		298F257D1AE204C60075072B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F257B1AE204C60075072B /* Interface.storyboard */; };
+		298F257F1AE204C60075072B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298F257E1AE204C60075072B /* Images.xcassets */; };
+		298F25821AE204C60075072B /* ConflictReslover WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 298F256A1AE204C60075072B /* ConflictReslover WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298F25571AE2047F0075072B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298F25391AE2047F0075072B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298F25401AE2047F0075072B;
+			remoteInfo = ConflictReslover;
+		};
+		298F25761AE204C60075072B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298F25391AE2047F0075072B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298F25731AE204C60075072B;
+			remoteInfo = "ConflictReslover WatchKit App";
+		};
+		298F25801AE204C60075072B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298F25391AE2047F0075072B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298F25691AE204C60075072B;
+			remoteInfo = "ConflictReslover WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		298F25891AE204C60075072B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				298F25821AE204C60075072B /* ConflictReslover WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		298F25411AE2047F0075072B /* ConflictReslover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConflictReslover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298F25451AE2047F0075072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F25461AE2047F0075072B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		298F25481AE2047F0075072B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		298F254B1AE2047F0075072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		298F254D1AE2047F0075072B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		298F25501AE2047F0075072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		298F25561AE2047F0075072B /* ConflictResloverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConflictResloverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298F255B1AE2047F0075072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F255C1AE2047F0075072B /* ConflictResloverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictResloverTests.swift; sourceTree = "<group>"; };
+		298F256A1AE204C60075072B /* ConflictReslover WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ConflictReslover WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298F256D1AE204C60075072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F256E1AE204C60075072B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		298F25701AE204C60075072B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		298F25741AE204C60075072B /* ConflictReslover WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConflictReslover WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298F257A1AE204C60075072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F257C1AE204C60075072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		298F257E1AE204C60075072B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298F253E1AE2047F0075072B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25531AE2047F0075072B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25671AE204C60075072B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298F25381AE2047F0075072B = {
+			isa = PBXGroup;
+			children = (
+				298F25431AE2047F0075072B /* ConflictReslover */,
+				298F25591AE2047F0075072B /* ConflictResloverTests */,
+				298F256B1AE204C60075072B /* ConflictReslover WatchKit Extension */,
+				298F25781AE204C60075072B /* ConflictReslover WatchKit App */,
+				298F25421AE2047F0075072B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298F25421AE2047F0075072B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298F25411AE2047F0075072B /* ConflictReslover.app */,
+				298F25561AE2047F0075072B /* ConflictResloverTests.xctest */,
+				298F256A1AE204C60075072B /* ConflictReslover WatchKit Extension.appex */,
+				298F25741AE204C60075072B /* ConflictReslover WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		298F25431AE2047F0075072B /* ConflictReslover */ = {
+			isa = PBXGroup;
+			children = (
+				298F25461AE2047F0075072B /* AppDelegate.swift */,
+				298F25481AE2047F0075072B /* ViewController.swift */,
+				298F254A1AE2047F0075072B /* Main.storyboard */,
+				298F254D1AE2047F0075072B /* Images.xcassets */,
+				298F254F1AE2047F0075072B /* LaunchScreen.xib */,
+				298F25441AE2047F0075072B /* Supporting Files */,
+			);
+			path = ConflictReslover;
+			sourceTree = "<group>";
+		};
+		298F25441AE2047F0075072B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298F25451AE2047F0075072B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298F25591AE2047F0075072B /* ConflictResloverTests */ = {
+			isa = PBXGroup;
+			children = (
+				298F255C1AE2047F0075072B /* ConflictResloverTests.swift */,
+				298F255A1AE2047F0075072B /* Supporting Files */,
+			);
+			path = ConflictResloverTests;
+			sourceTree = "<group>";
+		};
+		298F255A1AE2047F0075072B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298F255B1AE2047F0075072B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298F256B1AE204C60075072B /* ConflictReslover WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				298F256E1AE204C60075072B /* InterfaceController.swift */,
+				298F25701AE204C60075072B /* Images.xcassets */,
+				298F256C1AE204C60075072B /* Supporting Files */,
+			);
+			path = "ConflictReslover WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		298F256C1AE204C60075072B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298F256D1AE204C60075072B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298F25781AE204C60075072B /* ConflictReslover WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				298F257B1AE204C60075072B /* Interface.storyboard */,
+				298F257E1AE204C60075072B /* Images.xcassets */,
+				298F25791AE204C60075072B /* Supporting Files */,
+			);
+			path = "ConflictReslover WatchKit App";
+			sourceTree = "<group>";
+		};
+		298F25791AE204C60075072B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298F257A1AE204C60075072B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298F25401AE2047F0075072B /* ConflictReslover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298F25601AE2047F0075072B /* Build configuration list for PBXNativeTarget "ConflictReslover" */;
+			buildPhases = (
+				298F253D1AE2047F0075072B /* Sources */,
+				298F253E1AE2047F0075072B /* Frameworks */,
+				298F253F1AE2047F0075072B /* Resources */,
+				298F25891AE204C60075072B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298F25811AE204C60075072B /* PBXTargetDependency */,
+			);
+			name = ConflictReslover;
+			productName = ConflictReslover;
+			productReference = 298F25411AE2047F0075072B /* ConflictReslover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		298F25551AE2047F0075072B /* ConflictResloverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298F25631AE2047F0075072B /* Build configuration list for PBXNativeTarget "ConflictResloverTests" */;
+			buildPhases = (
+				298F25521AE2047F0075072B /* Sources */,
+				298F25531AE2047F0075072B /* Frameworks */,
+				298F25541AE2047F0075072B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298F25581AE2047F0075072B /* PBXTargetDependency */,
+			);
+			name = ConflictResloverTests;
+			productName = ConflictResloverTests;
+			productReference = 298F25561AE2047F0075072B /* ConflictResloverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298F25691AE204C60075072B /* ConflictReslover WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298F25861AE204C60075072B /* Build configuration list for PBXNativeTarget "ConflictReslover WatchKit Extension" */;
+			buildPhases = (
+				298F25661AE204C60075072B /* Sources */,
+				298F25671AE204C60075072B /* Frameworks */,
+				298F25681AE204C60075072B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298F25771AE204C60075072B /* PBXTargetDependency */,
+			);
+			name = "ConflictReslover WatchKit Extension";
+			productName = "ConflictReslover WatchKit Extension";
+			productReference = 298F256A1AE204C60075072B /* ConflictReslover WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		298F25731AE204C60075072B /* ConflictReslover WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298F25831AE204C60075072B /* Build configuration list for PBXNativeTarget "ConflictReslover WatchKit App" */;
+			buildPhases = (
+				298F25721AE204C60075072B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConflictReslover WatchKit App";
+			productName = "ConflictReslover WatchKit App";
+			productReference = 298F25741AE204C60075072B /* ConflictReslover WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298F25391AE2047F0075072B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nick Zhu";
+				TargetAttributes = {
+					298F25401AE2047F0075072B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					298F25551AE2047F0075072B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 298F25401AE2047F0075072B;
+					};
+					298F25691AE204C60075072B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					298F25731AE204C60075072B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 298F253C1AE2047F0075072B /* Build configuration list for PBXProject "ConflictReslover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 298F25381AE2047F0075072B;
+			productRefGroup = 298F25421AE2047F0075072B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298F25401AE2047F0075072B /* ConflictReslover */,
+				298F25551AE2047F0075072B /* ConflictResloverTests */,
+				298F25691AE204C60075072B /* ConflictReslover WatchKit Extension */,
+				298F25731AE204C60075072B /* ConflictReslover WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298F253F1AE2047F0075072B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F254C1AE2047F0075072B /* Main.storyboard in Resources */,
+				298F25511AE2047F0075072B /* LaunchScreen.xib in Resources */,
+				298F254E1AE2047F0075072B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25541AE2047F0075072B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25681AE204C60075072B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F25751AE204C60075072B /* ConflictReslover WatchKit App.app in Resources */,
+				298F25711AE204C60075072B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25721AE204C60075072B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F257D1AE204C60075072B /* Interface.storyboard in Resources */,
+				298F257F1AE204C60075072B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298F253D1AE2047F0075072B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F25491AE2047F0075072B /* ViewController.swift in Sources */,
+				298F25471AE2047F0075072B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25521AE2047F0075072B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F255D1AE2047F0075072B /* ConflictResloverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298F25661AE204C60075072B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F256F1AE204C60075072B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298F25581AE2047F0075072B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298F25401AE2047F0075072B /* ConflictReslover */;
+			targetProxy = 298F25571AE2047F0075072B /* PBXContainerItemProxy */;
+		};
+		298F25771AE204C60075072B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298F25731AE204C60075072B /* ConflictReslover WatchKit App */;
+			targetProxy = 298F25761AE204C60075072B /* PBXContainerItemProxy */;
+		};
+		298F25811AE204C60075072B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298F25691AE204C60075072B /* ConflictReslover WatchKit Extension */;
+			targetProxy = 298F25801AE204C60075072B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		298F254A1AE2047F0075072B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298F254B1AE2047F0075072B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		298F254F1AE2047F0075072B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298F25501AE2047F0075072B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		298F257B1AE204C60075072B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298F257C1AE204C60075072B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		298F255E1AE2047F0075072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		298F255F1AE2047F0075072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		298F25611AE2047F0075072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConflictReslover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		298F25621AE2047F0075072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConflictReslover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		298F25641AE2047F0075072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConflictResloverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConflictReslover.app/ConflictReslover";
+			};
+			name = Debug;
+		};
+		298F25651AE2047F0075072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConflictResloverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConflictReslover.app/ConflictReslover";
+			};
+			name = Release;
+		};
+		298F25841AE204C60075072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ConflictReslover_WatchKit_Extension;
+				INFOPLIST_FILE = "ConflictReslover WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		298F25851AE204C60075072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ConflictReslover_WatchKit_Extension;
+				INFOPLIST_FILE = "ConflictReslover WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		298F25871AE204C60075072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConflictReslover WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		298F25881AE204C60075072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ConflictReslover WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298F253C1AE2047F0075072B /* Build configuration list for PBXProject "ConflictReslover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F255E1AE2047F0075072B /* Debug */,
+				298F255F1AE2047F0075072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298F25601AE2047F0075072B /* Build configuration list for PBXNativeTarget "ConflictReslover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F25611AE2047F0075072B /* Debug */,
+				298F25621AE2047F0075072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298F25631AE2047F0075072B /* Build configuration list for PBXNativeTarget "ConflictResloverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F25641AE2047F0075072B /* Debug */,
+				298F25651AE2047F0075072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298F25831AE204C60075072B /* Build configuration list for PBXNativeTarget "ConflictReslover WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F25841AE204C60075072B /* Debug */,
+				298F25851AE204C60075072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298F25861AE204C60075072B /* Build configuration list for PBXNativeTarget "ConflictReslover WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F25871AE204C60075072B /* Debug */,
+				298F25881AE204C60075072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 298F25391AE2047F0075072B /* Project object */;
+}
